@@ -1,0 +1,15 @@
+public class Construccion : Utensilio
+    {
+        public uint Vida { get; set; }
+
+        public Construccion(string n, double pc, bool ocioso,
+            uint v):base(n,pc,ocioso)
+        {
+            Vida = v;
+        }
+
+        public override double Ganancia()
+        {
+            return Preciocosto*0.25;
+        }
+    }

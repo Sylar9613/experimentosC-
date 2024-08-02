@@ -1,0 +1,4 @@
+public interface IPlantasAlimenticias
+    {
+        bool Coccion { get; set; }
+    }

@@ -1,0 +1,2 @@
+obj\Debug\Cuenta Bancaria.exe
+obj\Debug\Cuenta Bancaria.pdb

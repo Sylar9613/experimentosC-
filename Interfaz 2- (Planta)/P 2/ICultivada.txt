@@ -1,0 +1,4 @@
+public interface ICultivada
+    {
+        string Destino { get; set; }
+    }

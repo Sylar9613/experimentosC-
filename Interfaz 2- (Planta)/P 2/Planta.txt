@@ -1,0 +1,38 @@
+public abstract  class Planta
+    {
+        private string nombreComun;
+        private string nombreCientifico;
+
+        public string  NombreComun { get; set; }
+        public string NombreCientifico { get; set; }
+
+       
+        public string TipoFruto
+        {
+            get { return tipoFruto; }
+            set { tipoFruto = value; }
+        }
+
+        private string tipoFruto;
+
+        private uint altura;
+        public uint Altura { get; set; }
+        public Planta(string nCom, string nCient, string tF,uint a)
+        {
+            nombreComun = nCom;
+            nombreCientifico = nCient;
+            tipoFruto = tF;
+            altura = a;
+        }
+        public string Clasif()
+        {
+            if (Altura > 5)
+            {
+                return "Arbol";
+            }
+            else if (Altura <= 5 && Altura >= 2)
+                return "Arbusto";
+            else
+                return "Hierba";
+        }
+    }

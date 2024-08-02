@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Cuenta Bancaria">
+</Property><Property Name="Archivo de la solución" Value="D:\Proyectos C#\Aplicaciones Consola\Clase Cuenta_Bancaria\Cuenta Bancaria\Cuenta Bancaria.sln">
+</Property><Property Name="Date" Value="Martes, 09 de Octubre de 2007">
+</Property><Property Name="Time" Value="22:46 p.m.">
+</Property></Properties><Event ErrorLevel="0" Project="Cuenta Bancaria" Source="Cuenta Bancaria.csproj" Description="Proyecto convertido correctamente">
+</Event><Event ErrorLevel="3" Project="Cuenta Bancaria" Source="Cuenta Bancaria.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Cuenta Bancaria.sln" Description="La solución se convirtió correctamente">
+</Event><Event ErrorLevel="3" Project="" Source="Cuenta Bancaria.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Cuenta Bancaria" Source="Cuenta Bancaria.csproj" Description="Búsqueda completa: no es necesario actualizar los archivos de proyecto.">
+</Event></UpgradeLog>

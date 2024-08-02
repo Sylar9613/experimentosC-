@@ -1,0 +1,18 @@
+public class Plomeria : Utensilio
+    {
+        public double Diametro { get; set; }
+        public string Material { get; set; }
+
+        public Plomeria(string n, double pc, bool ocioso,
+            double d, string m)
+            : base(n, pc, ocioso)
+        {
+            Diametro = d;
+            Material = m;
+        }
+
+        public override double Ganancia()
+        {
+            return Preciocosto * 0.75;
+        }
+    }

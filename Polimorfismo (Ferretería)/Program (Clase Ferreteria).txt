@@ -1,0 +1,28 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Clase_Practica
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var utensilios = new Utensilio[5];
+            utensilios[0] =  new Construccion("A",0.15,true,10);
+            utensilios[1] = new Plomeria("B", 0.20, true,5.0,"TAKA");
+            utensilios[2] = new Plomeria("C", 1.50, false, 2.0, "TAKA");
+            utensilios[3] = new Mecanica("D", 0.60, true,"dsfs1d545sdf1s5d1f15");
+            utensilios[4] = new Construccion("H", 0.05, true, 1);
+
+            var f = new Ferreteria(utensilios);
+            Console.WriteLine(f.MontoTotal());
+            Console.WriteLine(f.Existe("A"));
+            Console.WriteLine(f.CantMat("TAKA"));
+            Console.WriteLine(f.GananciaNOm("H"));
+
+        }
+    }
+}

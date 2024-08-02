@@ -1,0 +1,16 @@
+public class Mecanica : Utensilio
+    {
+        public string Numeracion { get; set; }
+
+        public Mecanica(string n, double pc, bool ocioso,
+           string num)
+            : base(n, pc, ocioso)
+        {
+            Numeracion = num;
+        }
+
+        public override double Ganancia()
+        {
+            return Preciocosto * 0.55;
+        }
+    }

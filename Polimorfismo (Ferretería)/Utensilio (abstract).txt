@@ -1,0 +1,38 @@
+public abstract class Utensilio
+    {
+        private string nombre;
+        private double preciocosto;
+        private bool ocioso;
+
+        public string Nombre
+        {
+            get { return nombre; }
+            set { nombre = value; }
+        }
+
+        public double Preciocosto
+        {
+            get { return preciocosto; }
+            set { preciocosto = value; }
+        }
+
+        public bool Ocioso
+        {
+            get { return ocioso; }
+            set { ocioso = value; }
+        }
+
+        public Utensilio(string n, double pc, bool o )
+        {
+            nombre = n;
+            preciocosto = pc;
+            ocioso = o;
+        }
+
+        public abstract double Ganancia();
+
+        public double PV()
+        {
+            return preciocosto + Ganancia();
+        }
+    }

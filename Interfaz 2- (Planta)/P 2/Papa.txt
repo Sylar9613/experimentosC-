@@ -1,0 +1,6 @@
+ public class Papa : Planta
+    {
+        public Papa(string nCom, string nCient, string tF, uint a) : base(nCom, nCient, tF, a)
+        {
+        }
+    }
